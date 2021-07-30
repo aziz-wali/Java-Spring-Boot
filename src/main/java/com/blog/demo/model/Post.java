@@ -1,9 +1,8 @@
-package com.blog.demo.post;
+package com.blog.demo.model;
 
 import java.sql.Date;
 import java.util.HashSet;
 import java.util.Set;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -13,10 +12,6 @@ import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
-
-import com.blog.demo.Hashtag.Hashtag;
-import com.blog.demo.category.Category;
-import com.blog.demo.security.User;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 @Entity

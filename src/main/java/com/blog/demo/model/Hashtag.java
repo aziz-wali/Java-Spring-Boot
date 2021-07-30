@@ -1,4 +1,4 @@
-package com.blog.demo.Hashtag;
+package com.blog.demo.model;
 
 
 import javax.persistence.Entity;

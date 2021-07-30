@@ -1,4 +1,4 @@
-package com.blog.demo.security;
+package com.blog.demo.model;
 
 
 import java.util.HashSet;
@@ -15,8 +15,6 @@ import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
-import com.blog.demo.model.Role;
-import com.blog.demo.post.Post;
 import javax.persistence.JoinColumn;
 
 @Entity

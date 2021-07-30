@@ -4,10 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-
-import com.blog.demo.security.MyUserDetailsService;
-
-
+import com.blog.demo.service.MyUserDetailsService;
 
 @Controller
 public class UserRegistrationController {

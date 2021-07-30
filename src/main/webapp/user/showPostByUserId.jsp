@@ -2,7 +2,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<jsp:include page="header.jsp" flush="true"/>
+<jsp:include page="../header.jsp" flush="true"/>
 
 
 <div class="container">
@@ -21,4 +21,4 @@
 	     </c:forEach>
    </div>
  </div>
- <jsp:include page="footer.jsp" flush="true"/>
+ <jsp:include page="../footer.jsp" flush="true"/>

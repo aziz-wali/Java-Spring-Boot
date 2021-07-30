@@ -12,13 +12,13 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.blog.demo.Hashtag.Hashtag;
-import com.blog.demo.Hashtag.HashtagRepository;
-import com.blog.demo.category.Category;
-import com.blog.demo.category.CategoryRepository;
-import com.blog.demo.post.Post;
-import com.blog.demo.post.PostRepo;
-import com.blog.demo.post.PostService;
+import com.blog.demo.model.Hashtag;
+import com.blog.demo.repository.HashtagRepository;
+import com.blog.demo.model.Category;
+import com.blog.demo.repository.CategoryRepository;
+import com.blog.demo.model.Post;
+import com.blog.demo.repository.PostRepo;
+import com.blog.demo.service.PostService;
 
 
 @Controller

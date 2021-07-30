@@ -1,7 +1,6 @@
-package com.blog.demo.category;
+package com.blog.demo.model;
 
 import java.util.List;
-
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -10,7 +9,6 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 
-import com.blog.demo.post.Post;
 @Entity
 public class Category {
 	 @Id

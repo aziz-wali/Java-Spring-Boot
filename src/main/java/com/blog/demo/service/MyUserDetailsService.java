@@ -1,4 +1,4 @@
-package com.blog.demo.security;
+package com.blog.demo.service;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 import java.io.IOException;
@@ -12,6 +12,9 @@ import org.springframework.util.StringUtils;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.blog.demo.model.Role;
+import com.blog.demo.model.User;
+import com.blog.demo.repository.UserRepository;
+import com.blog.demo.security.UserPrincipal;
 @Service
 public class MyUserDetailsService implements UserDetailsService {
 	@Autowired
